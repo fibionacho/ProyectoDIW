@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #20034e   ,#3909aa );
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#nav {
+    margin-top: 1%;
+    display: flex;
+  
+    /*justify-items: center;*/
+}
+
+div.container-fluid div div {
+    height: 110px;
+    display: flex;
+    align-items: center;
+
+}
+#listas{
+    justify-content: right;
+}
+
+.nav1 {
+   font-size: 150%;
+    padding-left: 5%;
+}
+#buscador{
+    justify-content: right;
+}
+/*.col {
+    border: 1px solid white;
+}*/
+
+#search{
+    width: 80%;
+    height: 35%;
+    border: 4px solid #20034e;
+    margin-left: 4%;
+   
+}
+#user{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+#cajalogo{
+   
+   /* align-content: center;
+    justify-content: center;*/
+}
