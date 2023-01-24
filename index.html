@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--  <link rel="stylesheet" href="css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/proyecto.css">
     <title>Document</title>
 </head>
@@ -15,35 +15,44 @@
     <div class="container-fluid   text-white">
         <div class="row" id="nav">
 
-            <div class="col ">
-               <img src="png/logo-no-background.png" alt="" height="100px">
+            <div class="col">
+                <img src="png/logo-no-background.png" alt="" height="100px">
             </div>
-           
+
+
+
+
             <div class="col" id="listas">
-                <p class="nav1">Inicio</p>
-                <p class="nav1">Películas</p>
-                <p class="nav1">Series</p>
+                <a href="index.html" class="nav1">Inicio</a>
+                <a href="" class="nav1">Películas</a>
+                <a href="" class="nav1">Series</a>
             </div>
-          
+
             <div class="col " id="buscador">
                 <img src="img/lupa.svg" alt="" height="35px">
                 <input type="text" name="" id="search" placeholder="Buscar">
-                <img src="img/user.svg" alt="" height="45px" id="user">
+                <ul class="nav">
+                    <li id="userlist"> <img src="img/user.svg" alt="" height="45px" id="user">
+                        <ul>
+                            <li><a href="">Submenu1</a></li>
+                            <li><a href="">Submenu2</a></li>
+                            <li><a href="">Submenu3</a></li>
+                            <li><a href="">Submenu4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
             </div>
 
-            
+
+
+
+
+
         </div>
 
-    </div>
 
 
-
-
-
-   
-
-
- 
 </body>
 
 </html>
