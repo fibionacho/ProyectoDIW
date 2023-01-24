@@ -50,7 +50,7 @@ div.container-fluid div div {
 }*/
 
 #search{
-    width: 65%;
+    width: 60%;
     height: 35%;
     border: 4px solid #20034e;
     margin-left: 4%;
@@ -85,24 +85,35 @@ ul, ol {
     color:#fff;
     text-decoration:none;
     padding:10px 12px;
-    display:block;
+    display:flex;
+    justify-content: baseline;
+    padding-left: 1%;
+}
+.desplegable{
+    text-align: center;
 }
 .nav li a:hover {
     background-color:#434343;
+    font-weight: bold;
 }
 .nav li ul {
     display:none;
     position:absolute;
-    min-width:140px;
+    min-width:150px;
 }
 .nav li:hover > ul {
     display:block;
 }
 .nav li ul li {
     position:relative;
+    display: block;
 }
 
  .nav li ul li ul {
     
     top:0px;
+}
+.pic{
+    padding-right: 12%;
+   
 }
