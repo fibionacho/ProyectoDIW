@@ -142,3 +142,17 @@ h1{
 #demo{
     height:300px;
 }
+
+/*Estilo para el no-slide de peliculas*/
+.seccion{
+    text-align: center;
+    margin: auto;
+}
+.seleccion{
+    height: 320px;
+    width: 250px;
+    display: inline-block;
+}
+.titulos{
+    color: #fff;
+}
