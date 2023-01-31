@@ -12,6 +12,8 @@ body {
     margin-top: 1%;
     display: flex;
     margin-left: 5px;
+    position: sticky;
+    
   
     /*justify-items: center;*/
 }
