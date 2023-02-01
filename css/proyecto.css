@@ -12,9 +12,7 @@ body {
     margin-top: 1%;
     display: flex;
     margin-left: 5px;
-    position: sticky;
     
-  
     /*justify-items: center;*/
 }
 
@@ -24,7 +22,13 @@ div.container-fluid div{
     align-items: center;
 
 }
-
+.container-fluid{
+    display: block;
+    position: sticky;
+    background: linear-gradient(to right, #20034e   ,#3909aa );
+    position: sticky;
+    top: 0px;
+}
 
 
 
@@ -157,4 +161,71 @@ h1{
 }
 .titulos{
     color: #fff;
+}
+/*Otro estilo para slide*/
+.carro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+.main-scroll-div{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+.cover{
+    position:relative;
+    width: 90%;
+    height: 50%;
+}
+.cover::before{
+    position: absolute;
+    content: "";
+    left:0;
+    top:0;
+    z-index: 10;
+    height: 100%;
+    width: 150px;
+}
+.cover::after{
+    position: absolute;
+    content: "";
+    right:0;
+    top:0;
+    z-index: 10;
+    height: 100%;
+    width: 150px;
+}
+.scroll-images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.child{
+    height: 320px;
+    width: 250px;
+    margin: 1px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid white;
+}
+.scroll-images::-webkit-scrollbar{
+-webkit-appearemce:none;
+}
+.child-img{
+    width: 100%;
+    height: 100%;
 }
