@@ -3,9 +3,14 @@ body {
     margin-left: 3%;
     margin-right: 3%;
   }
-  
+  .bloque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .wrapper {
-    height: 420px;
+   
+    height: 520px;
     width: 654px;
     margin: 50px auto;
     border-radius: 7px 7px 7px 7px;
@@ -16,7 +21,7 @@ body {
   
   .product-img {
     float: left;
-    height: 420px;
+    height: 520px;
     width: 327px;
   }
   
@@ -25,8 +30,9 @@ body {
   }
   
   .product-info {
+    
     float: left;
-    height: 420px;
+    height: 520px;
     width: 327px;
     border-radius: 0 7px 10px 7px;
     background-color: #ffffff;
@@ -62,21 +68,22 @@ body {
   }
   
   .product-text p {
-    height: 125px;
-    margin: 0 0 0 38px;
+
+    margin: 0 2% 0 2%;
     font-family: 'Playfair Display', serif;
     color: #474444;
     line-height: 1.7em;
     font-size: 15px;
     font-weight: lighter;
     overflow: hidden;
-    text-justify:auto;
+    text-align: justify;
+    
   }
   
   .product-price-btn {
     height: 103px;
     width: 327px;
-    margin-top: 60px;
+    margin-top: 50%;
     position: relative;
   }
   
@@ -123,5 +130,79 @@ body {
     background-color: #79b0a1;
   }
   .desplegable{
+    margin-top: 15%;
+   
+    
     z-index: 100%;
   }
+ 
+#cajalogo{
+   
+   /* align-content: center;
+    justify-content: center;*/
+}
+
+
+ul, ol {
+    list-style:none;
+}
+.nav > li {
+    float:none;
+    
+}
+#userlist{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    padding-left: 0%;
+}
+.nav li a {
+    
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:flex;
+    justify-content: baseline;
+    padding-left: 1%;
+}
+.desplegable{
+    text-align: center;
+}
+.nav li a:hover {
+    background-color:#79b0a1;
+    font-weight: bold;
+}
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:150px;
+}
+.nav li:hover > ul {
+    display:block;
+}
+.nav li ul li {
+    position:relative;
+    display: block;
+}
+
+ .nav li ul li ul {
+    
+    right:-150px;
+    top: 0px;
+}
+.pic{
+    padding-right: 12%;
+   
+}
+.capitulo{
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:flex;
+  justify-content: baseline;
+  padding-left: 1%;
+  background-color: transparent;
+}
+.capitulo:hover{
+  background-color: #79b0a1;
+}
