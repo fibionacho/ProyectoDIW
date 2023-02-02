@@ -1,0 +1,21 @@
+#foto{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+  ;
+    display: inline;
+}
+#perfil{
+  
+    margin-top: 50px;
+    z-index: -10;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    height: 500px;
+    border: 1px solid white;
+  
+}
