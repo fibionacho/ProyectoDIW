@@ -162,7 +162,7 @@ h1{
 .seleccion:hover{
     height: 350px;
     width: 279px;
-    z-index: 20;
+    z-index: 200;
 }
 .titulos{
     color: #fff;
