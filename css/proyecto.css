@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    outline: none;
 }
 body {
     background: linear-gradient(to right, #20034e   ,#3909aa );
@@ -163,6 +164,8 @@ h1{
     height: 350px;
     width: 279px;
     z-index: 200;
+    transition: 0.5s;
+    
 }
 .titulos{
     color: #fff;
