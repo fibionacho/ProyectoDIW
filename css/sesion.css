@@ -119,10 +119,11 @@ a{
     padding: 30%;
     padding-bottom: 200%;
     background-color: transparent;
+    transition: all 0.5s;
    
 }
 .perfil:hover{
 font-size: 400%;
 font-weight: bold;
-transition: 0.5s;
+transition: all 0.5s;
 }

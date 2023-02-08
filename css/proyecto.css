@@ -159,12 +159,13 @@ h1{
     height: 320px;
     width: 250px;
     display: inline-block;
+    transition: all 0.5s;
 }
 .seleccion:hover{
     height: 350px;
     width: 279px;
     z-index: 200;
-    transition: 0.5s;
+    transition: all 0.5s;
     
 }
 .titulos{
