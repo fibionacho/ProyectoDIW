@@ -1,100 +1,186 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/proyecto.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/proyecto.css" />
 
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--MENÚ/NAVEGADOR-->
-    <div class="container-fluid   text-white">
-        <div class="row" id="nav">
-
-            <div class="col">
-                <img src="png/logo-no-background.png" alt="" height="100px">
-            </div>
-
-            <div class="col" id="listas">
-                <a href="index.html" class="nav1">Inicio</a>
-                <a href="" class="nav1">Películas</a>
-                <a href="" class="nav1">Series</a>
-            </div>
-
-            <div class="col " id="buscador">
-                <img src="img/lupa.svg" alt="" height="35px">
-                <input type="text" name="" id="search" placeholder="Buscar">
-                <ul class="nav">
-                    <li id="userlist"> <img src="img/user.svg" alt="" height="45px" id="user">
-                        <ul class="desplegable">
-                            <li><a href="perfil.html"><img src="img/user2.svg" alt="" height="20px" class="pic">Perfil</a></li>
-                            <li><a href=""><img src="img/seguridad.svg" alt="" height="20px" class="pic"
-                                        id="user">Seguridad</a></li>
-                            <li><a href=""><img src="img/settings.svg" alt="" height="20px" class="pic">Ajustes</a></li>
-                            <li><a href="inicio.html"><img src="img/sesion.svg" alt="" height="20px" class="pic">Cerrar sesión</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+    <div class="container-fluid text-white">
+      <div class="row" id="nav">
+        <div class="col">
+          <img src="png/logo-no-background.png" alt="" height="100px" />
         </div>
+
+        <div class="col" id="listas">
+          <a href="index.html" class="nav1">Inicio</a>
+          <a href="" class="nav1">Películas</a>
+          <a href="" class="nav1">Series</a>
+        </div>
+
+        <div class="col" id="buscador">
+          <img src="img/lupa.svg" alt="" height="35px" />
+          <input type="text" name="" id="search" placeholder="Buscar" />
+          <ul class="nav">
+            <li id="userlist">
+              <img src="img/user.svg" alt="" height="45px" id="user" />
+              <ul class="desplegable">
+                <li>
+                  <a href="perfil.html"
+                    ><img
+                      src="img/user2.svg"
+                      alt=""
+                      height="20px"
+                      class="pic"
+                    />Perfil</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="img/seguridad.svg"
+                      alt=""
+                      height="20px"
+                      class="pic"
+                      id="user"
+                    />Seguridad</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><img
+                      src="img/settings.svg"
+                      alt=""
+                      height="20px"
+                      class="pic"
+                    />Ajustes</a
+                  >
+                </li>
+                <li>
+                  <a href="inicio.html"
+                    ><img
+                      src="img/sesion.svg"
+                      alt=""
+                      height="20px"
+                      class="pic"
+                    />Cerrar sesión</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <br><br>
+    <br /><br />
     <!--Navegador peliculas-->
     <div class="seccion">
-        <h2 class="titulos"> Películas añadidas recientemente</h2>
-        <div>
-          <a href="ficha1.html">  <img src="img/cafarnaum.jpg" alt="" class="seleccion"></a>
-            <img src="img/alcarras.jpg" alt="" class="seleccion">
-            <img src="img/libelulas.jpg" alt="" class="seleccion">
-            <img src="img/bestas.jpg" alt="" class="seleccion">
-            <img src="img/ramona.jpg" alt="" class="seleccion">
-            <img src="img/avatar.jpg" alt="" class="seleccion">
-        </div>
-        <div></div>
-        <div></div>
-        <br>
-
+      <h2 class="titulos">Películas añadidas recientemente</h2>
+      <div>
+        <a href="ficha1.html">
+          <img src="img/cafarnaum.jpg" alt="" class="seleccion"
+        /></a>
+        <img src="img/alcarras.jpg" alt="" class="seleccion" />
+        <img src="img/libelulas.jpg" alt="" class="seleccion" />
+        <img src="img/bestas.jpg" alt="" class="seleccion" />
+        <img src="img/ramona.jpg" alt="" class="seleccion" />
+        <img src="img/avatar.jpg" alt="" class="seleccion" />
+      </div>
+      <div></div>
+      <div></div>
+      <br />
     </div>
     <div class="seccion">
-        <h2 class="titulos"> Series añadidas recientemente</h2>
-        <div>
-            <img src="img/last.jpg" alt="" class="seleccion">
-            <img src="img/dragon.jpg" alt="" class="seleccion">
-            <img src="img/blinders.jpg" alt="" class="seleccion">
-            <img src="img/breaking.jpg" alt="" class="seleccion">
-            <img src="img/wire.jpg" alt="" class="seleccion">
-            <img src="img/detective.jpg" alt="" class="seleccion">
-        </div>
-        <div></div>
-        <div></div>
-
+      <h2 class="titulos">Series añadidas recientemente</h2>
+      <div>
+        <img src="img/last.jpg" alt="" class="seleccion" />
+        <img src="img/dragon.jpg" alt="" class="seleccion" />
+        <img src="img/blinders.jpg" alt="" class="seleccion" />
+        <img src="img/breaking.jpg" alt="" class="seleccion" />
+        <img src="img/wire.jpg" alt="" class="seleccion" />
+        <img src="img/detective.jpg" alt="" class="seleccion" />
+      </div>
+      <div></div>
+      <div></div>
     </div>
-    <br><br>
+    <br /><br />
+
+
+
+
+    <div class="seccion">
+       
+      <h2 class="titulos">Tendencias en España</h2>
+      <div>
+       
+
+        <div class="marco">
+          <img src="img/last.jpg" alt="" class="seleccion" />
+          <p class="top">#1</p>
+        </div>
+
+        <div class="marco">
+          <img src="img/anillo.jpg" alt="" class="seleccion" />
+          <p class="top">#2</p>
+        </div>
+
+        <div class="marco">
+          <img src="img/modelo.jpg" alt="" class="seleccion" />
+          <p class="top">#3</p>
+        </div>
+
+        <div class="marco">
+          <img src="img/drive.jpg" alt="" class="seleccion" />
+          <p class="top">#4</p>
+        </div>
+
+        <div class="marco">
+          <img src="img/alcarras.jpg" alt="" class="seleccion" />
+          <p class="top">#5</p>
+        </div>
+        <div class="marco">
+          <img src="img/avatar.jpg" alt="" class="seleccion" />
+          <p class="top">#6</p>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
+    </div>
+    <br /><br />
+
     <div class="carro">
-        <div class="main-scroll-div">
-            <div></div>
-            <div class="cover">
-                <div class="scroll-images">
-                    <div class="child"><img src="img/cafarnaum.jpg" alt="" class="child-img"></div>
-                    <div class="child"><img src="img/cafarnaum.jpg" alt="" class="child-img"></div>
-                    <div class="child"><img src="img/cafarnaum.jpg" alt="" class="child-img"></div>
-                    <div class="child"><img src="img/cafarnaum.jpg" alt="" class="child-img"></div>
-                    <div class="child"><img src="img/cafarnaum.jpg" alt="" class="child-img"></div>
-                    <div class="child"><img src="img/cafarnaum.jpg" alt="" class="child-img"></div>
-                    
-                </div>
+      <div class="main-scroll-div">
+        <div></div>
+        <div class="cover">
+          <div class="scroll-images">
+            <div class="child">
+              <img src="img/cafarnaum.jpg" alt="" class="child-img" />
             </div>
-            <div></div>
+            <div class="child">
+              <img src="img/cafarnaum.jpg" alt="" class="child-img" />
+            </div>
+            <div class="child">
+              <img src="img/cafarnaum.jpg" alt="" class="child-img" />
+            </div>
+            <div class="child">
+              <img src="img/cafarnaum.jpg" alt="" class="child-img" />
+            </div>
+            <div class="child">
+              <img src="img/cafarnaum.jpg" alt="" class="child-img" />
+            </div>
+            <div class="child">
+              <img src="img/cafarnaum.jpg" alt="" class="child-img" />
+            </div>
+          </div>
         </div>
+        <div></div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
