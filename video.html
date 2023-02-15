@@ -29,7 +29,7 @@
         />
         <span id="mute">mute</span>
       </div>
-      <div id="progress-continer">
+      <div id="progress-container">
         <input type="range" class="range-css" id="progress" min="0" max="100" />
       </div>
     </div>
@@ -56,7 +56,7 @@
 
             if (video.paused){
                 video.play();
-                playPause.innerHTML="<i class 'fa fa-pause-circle'>";
+                playPause.innerHTML="<i class ='fa fa-pause-circle'>";
                     setTimeout(()=>{
                         playPause.classList.toggle('hide')
                     },300);
@@ -74,7 +74,7 @@
                 video.muted=false;
                 mute.innerHTML= "mute";
             }else{
-                ideo.muted = true;
+                video.muted = true;
                 mute.innerHTML = "unmute";
             }
         });
