@@ -139,3 +139,13 @@
     left: -14px;
 }
 
+.btn{
+
+    background-color: #292a33;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #292a33;
+}
