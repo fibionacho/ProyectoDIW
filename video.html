@@ -15,7 +15,7 @@
           type="video/mp4"
         />
       </video>
-      <span id="playPause"><i class="fa fa-play-circle"></i></span>
+      <span id="playPause"><i class="fa fa-play-circle">()</i></span>
 
       <div id="controls">
         <input
@@ -56,13 +56,13 @@
 
             if (video.paused){
                 video.play();
-                playPause.innerHTML="<i class ='fa fa-pause-circle'>";
+                playPause.innerHTML="<i class ='fa fa-pause-circle'>play</i>";
                     setTimeout(()=>{
                         playPause.classList.toggle('hide')
                     },300);
             }else{
                 video.pause();
-                playPause.innerHTML= "<i class='fa fa-play-circle'>";
+                playPause.innerHTML= "<i class='fa fa-play-circle'>pause</i>";
             }
         });
 
