@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     
 }
 body {
@@ -27,7 +28,7 @@ div.container-fluid div{
     display: block;
     position: sticky;
     background: linear-gradient(to right, #20034e   ,#3909aa );
-    position: sticky;
+   ;
     top: 0px;
     z-index: 70;
 }

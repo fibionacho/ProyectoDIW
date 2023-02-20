@@ -1,15 +1,7 @@
-html{
-    box-sizing: border-box;
-}
 
-html *, html *:before, html *:after, html *::before, html *::after{
-    box-sizing: inherit;
-}
 
 body{
     background: linear-gradient(to right, #20034e   ,#3909aa );
-    margin-left: 3%;
-    margin-right: 3%;
     font-family: sans-serif;
 }
 
