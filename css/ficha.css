@@ -1,7 +1,6 @@
 body {
     background: linear-gradient(to right, #20034e   ,#3909aa );
-    margin-left: 3%;
-    margin-right: 3%;
+    
   }
   .bloque{
     display: flex;
@@ -128,7 +127,7 @@ body {
   
   .product-price-btn button:hover {
     background-color: #79b0a1;
-  }
+  }/*
   .desplegable{
     margin-top: 15%;
    
@@ -138,8 +137,8 @@ body {
  
 #cajalogo{
    
-   /* align-content: center;
-    justify-content: center;*/
+    align-content: center;
+    justify-content: center;
 }
 
 
@@ -205,4 +204,4 @@ ul, ol {
 }
 .capitulo:hover{
   background-color: #79b0a1;
-}
+}*/

@@ -15,7 +15,7 @@
 }
 .row{
     height: 500px;
-    border: 1px solid white;
+   
   
 }
 label{
@@ -56,10 +56,11 @@ input:checked ~ .checkbox{
     transition: all 0.375s;
 }
 .bloque{
-  margin-left: 10%;
+  margin-left: 7%;
     justify-content: left;
     align-items: left;
     display: flex;
+    border-bottom: 1px solid white;
    
 }
 
@@ -74,11 +75,17 @@ h5{
    font-style: oblique;
 }
 #preferencia{
-   border: 3px solid white; 
+  
    margin-left: 3%;
    margin-right: 3%;
 }
 #preferencia:hover{
-    background: linear-gradient(to right  ,#3909aa, #20034e  );
+    /*background: linear-gradient(to right  ,#3909aa, #20034e  );*/
+    background-color: rgb(36, 26, 54);
     
+}
+audio{
+    display: flex;
+    height: 20%;
+    margin-left: 5%;
 }
